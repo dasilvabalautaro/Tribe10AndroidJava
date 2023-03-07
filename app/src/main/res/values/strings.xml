@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tribe10AndroidJava</string>
+    <string name="lbl_capture_image">capture_image</string>
+    <string name="lbl_icono">icono</string>
+    <string name="lbl_success">Operation success.</string>
+    <string name="lbl_description">Description</string>
+    <string name="lbl_save_history">Save history</string>
+</resources>

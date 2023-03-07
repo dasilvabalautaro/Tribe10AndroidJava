@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/entry_dest">
+
+    <fragment
+        android:id="@+id/entry_dest"
+        android:name="com.globalhiddenodds.tribe10androidjava.ui.fragments.EntryFragment"
+        android:label="Entry history"
+        tools:layout="@layout/fragment_entry">
+        <action
+            android:id="@+id/next_action_post"
+            app:destination="@id/post_dest"/>
+    </fragment>
+    <fragment
+        android:id="@+id/post_dest"
+        android:name="com.globalhiddenodds.tribe10androidjava.ui.fragments.ListFragment"
+        android:label="List histories"
+        tools:layout="@layout/fragment_list"/>
+
+</navigation>
